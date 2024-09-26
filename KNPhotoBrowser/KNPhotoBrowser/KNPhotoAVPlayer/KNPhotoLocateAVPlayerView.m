@@ -187,7 +187,7 @@
     if(_isSoloAmbient == true) {
         [session setCategory:AVAudioSessionCategorySoloAmbient error:nil];
     }else {
-        [session setCategory:AVAudioSessionCategoryAmbient error:nil];
+        [session setCategory:AVAudioSessionCategoryPlayback error:nil];
     }
     
     // Notification
